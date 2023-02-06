@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #05254b;
+}
+
+.absolute {
+    position: absolute;
+    width: 664px;
+    height: 53px;
+}
