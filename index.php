@@ -30,9 +30,9 @@
                 <div class="row">
                     <div class="col-12">
                         <ul class="list-unstyled">
-                            <li class="py-3 px-2" v-for="(todo, index) in todoList">
-                                <form class="search-wrapper cf">
-                                    <input class="absolute" type="text" v-model="todo.language" :placeholder="(errorMessage != '') ? errorMessage : 'Linguaggio'" class="form-control">
+                            <li class="px-2" v-for="(todo, index) in todoList">
+                                <form class="d-flex justify-content-center">
+                                    <input class="absolute px-3" type="text" v-model="todo.language" :placeholder="(errorMessage != '') ? errorMessage : 'Linguaggio'" class="form-control">
                                     <button class="relative m-1 btn btn-square btn-danger" @click="deleteTodo(index)">
                                         <i class="fa fa-trash"></i>
                                     </button>
@@ -42,9 +42,9 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-12">
-                        <input class="absolute" type="text" v-model="language" :placeholder="(errorMessage != '') ? errorMessage : 'Linguaggio'" class="form-control">
-                        <button class="relative btn btn-primary" @click="addTodo">Inserisci</button>
+                    <div class="col-12 d-flex justify-content-center">
+                        <input class="absolute ps-3 rounded" type="text" v-model="language" :placeholder="(errorMessage != '') ? errorMessage : 'Linguaggio'" class="form-control">
+                        <button class="relative-2 btn btn-primary" @click="addTodo">Inserisci</button>
                     </div>
                 </div>
             </div>

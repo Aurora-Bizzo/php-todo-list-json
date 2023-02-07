@@ -8,8 +8,29 @@ body {
     background-color: #05254b;
 }
 
+form {
+    height: 53px;
+}
+
 .absolute {
     position: absolute;
     width: 664px;
     height: 53px;
+}
+
+.relative {
+    position: relative;
+    height: 40px;
+    top: 3px;
+    left: 293px;
+}
+
+.relative-2 {
+    position: relative;
+    font-size: 24px;
+    top: 2px;
+    left: 278px;
+    border: 1px solid rgb(252, 216, 13);
+    color: rgb(252, 216, 13);
+    background-color: #05254b;
 }
